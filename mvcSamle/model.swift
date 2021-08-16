@@ -2,7 +2,7 @@
 //  model.swift
 //  mvcSamle
 //
-//  Created by Ryo Nagasawa on 2021/08/16.
+//  Created by almblm  on 2021/08/16.
 //
 
 import Foundation

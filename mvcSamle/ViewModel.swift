@@ -2,7 +2,7 @@
 //  ViewModel.swift
 //  mvcSamle
 //
-//  Created by Ryo Nagasawa on 2021/08/17.
+//  Created by almblm on 2021/08/17.
 //
 
 import Foundation
