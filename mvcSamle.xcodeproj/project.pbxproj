@@ -13,6 +13,8 @@
 		A80AE3EB26CAA61A006FEDCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80AE3EA26CAA61A006FEDCF /* Preview Assets.xcassets */; };
 		A80AE3F726CAA61A006FEDCF /* mvcSamleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AE3F626CAA61A006FEDCF /* mvcSamleTests.swift */; };
 		A80AE40226CAA61A006FEDCF /* mvcSamleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AE40126CAA61A006FEDCF /* mvcSamleUITests.swift */; };
+		A80AE41026CAAC81006FEDCF /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AE40F26CAAC81006FEDCF /* model.swift */; };
+		A80AE41226CAC9B8006FEDCF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AE41126CAC9B8006FEDCF /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		A80AE3FD26CAA61A006FEDCF /* mvcSamleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvcSamleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80AE40126CAA61A006FEDCF /* mvcSamleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvcSamleUITests.swift; sourceTree = "<group>"; };
 		A80AE40326CAA61A006FEDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80AE40F26CAAC81006FEDCF /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		A80AE41126CAC9B8006FEDCF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		A80AE3E226CAA618006FEDCF /* mvcSamle */ = {
 			isa = PBXGroup;
 			children = (
+				A80AE41126CAC9B8006FEDCF /* ViewModel.swift */,
+				A80AE40F26CAAC81006FEDCF /* model.swift */,
 				A80AE3E326CAA618006FEDCF /* mvcSamleApp.swift */,
 				A80AE3E526CAA618006FEDCF /* ContentView.swift */,
 				A80AE3E726CAA61A006FEDCF /* Assets.xcassets */,
@@ -262,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80AE3E626CAA618006FEDCF /* ContentView.swift in Sources */,
+				A80AE41026CAAC81006FEDCF /* model.swift in Sources */,
+				A80AE41226CAC9B8006FEDCF /* ViewModel.swift in Sources */,
 				A80AE3E426CAA618006FEDCF /* mvcSamleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
