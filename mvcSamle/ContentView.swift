@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = ViewModel()
     var body: some View {
-        Text("Hello, world!")
+        Text(viewModel.exampleN.description)
             .padding()
+        HStack {
+        Button(" + ",action: {
+            viewModel.addNumber()
+        })
+        Button(" - ",action: {
+            viewModel.downNumber()
+        })
+        }
     }
 }
 
